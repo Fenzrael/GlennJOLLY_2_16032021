@@ -1,60 +1,70 @@
 <!Doctype html>
 <html lang='fr'>
     <head>
+        <!--Chaîne de caractères-->
         <meta charset="UTF-8">
-        <link rel="stylesheet" href="style.css"/>
+
+        <!--Meta du Viewport-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--Liens aux Fichiers CSS-->
+        <link rel="stylesheet" href="StyleHeader.css"/>
+
         <!--Script Kit Font-Awesome-->
         <script src="https://kit.fontawesome.com/71f14f71be.js" crossorigin="anonymous"></script>
 
         <!--Titre de la Page-->
-        <Title>Reservia-Réservation hôtelière</Title>
+        <Title id="Title">Reservia-Réservation hôtelière</Title>
     </head>
 
     <body>
         <!--En-tête de la page-->
         <header>
-            <h1><img src="Img/logo/Reservia.svg" alt="Reservia"></h1>
+            <div id="Head">
+                <h1 class="Enterprise"><img src="Img/logo/Reservia.svg" alt="Reservia"></h1>
 
         <!--Menu de Navigation-->
-            <nav>
-                <ul>
-                    <li>Hébergements</li>
-                    <li>Activités</li>
-                    <li>S'inscrire</li>
-                </ul>
-             </nav>
+                <nav class="Menu">
+                    <ul id="Navigation">
+                        <li class="Location"><a href="#Hebergements">Hébergements</a></li>
+                        <li class="Activite"><a href="#Activities">Activités</a></li>
+                        <li class="Require">S'inscrire</li>
+                    </ul>
+                </nav>
+            </div>
 
-            <p><strong>Trouvez votre hébergement pour des vacances de rêve</strong><br/>
-            En plein centre ville ou en pleine nature
-            </p>
+        <!--Paragraphe de Présentation-->
+                <p id="Presentation"><strong>Trouvez votre hébergement pour des vacances de rêve</strong><br/>
+                En plein centre ville ou en pleine nature
+                </p>
 
         <!--Formulaire de recherche-->   
-            <form>
-                <span class="fas fa-map-marker-alt"></span>
-                <input type="search" name="Rechercher" id="Rechercher" placeholder="Marseille,France"/>
-                <label for="Rechercher">Rechercher</label>
-            </form>
+                <form id="Search">
+                    <span class="fas fa-map-marker-alt"></span>
+                    <input type="search" name="Rechercher" id="Rechercher" placeholder="Marseille,France"/>
+                    <label for="Rechercher">Rechercher</label>
+                </form>
 
         <!--Filtres-->   
-            <p id="Filters">Filtres 
-                <span class="fas fa-money-bill-wave"></span>
-                    <a>Économique</a>
+                <p id="Filters">Filtres 
+                    <span class="fas fa-money-bill-wave"></span>
+                        <a>Économique</a>
 
-                <span class="fas fa-child"></span>
-                    <a>Familial</a>
+                    <span class="fas fa-child"></span>
+                        <a>Familial</a>
 
-                <span class="fas fa-heart"></span>
-                    <a>Romantique</a>
+                    <span class="fas fa-heart"></span>
+                        <a>Romantique</a>
 
-                <span class="fas fa-dog"></span>
-                    <a>Animaux Autorisés</a>
-            </p>
+                    <span class="fas fa-dog"></span>
+                        <a>Animaux Autorisés</a>
+                </p>
 
         <!--Infos supplémentaires-->
-            <div id="More_Info">
-                <span class="fas fa-info-circle"></span>
-                Plus de 500 logements sont disponibles dans cette ville
-            </div>
+                <div id="More_Info">
+                    <span class="fas fa-info-circle"></span>
+                    Plus de 500 logements sont disponibles dans cette ville
+                </div>
         </header>
 
         <!--Section 1: Hébergement-->
@@ -63,7 +73,7 @@
                 <h2>Hébergements à Marseille</h2>
 
                     <figure class="Hébergement_1">
-                        <a href="Img/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg">
+                        <a href="#Hebergements">
                             <img src="Img/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg"
                                  alt="Hebergement_1"/>
                         </a>
@@ -79,7 +89,7 @@
                     </figure>
            
                     <figure class="Hébergement_2">
-                        <a href="Img/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg">
+                        <a href="#Hebergements">
                             <img src="Img/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg"
                                  alt="Hébergement_2"/>
                         </a>
@@ -95,7 +105,7 @@
                     </figure>
 
                     <figure class="Hébergement_3">
-                        <a href="Img/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg">
+                        <a href="#Hebergements">
                             <img src="Img/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg"
                                  alt="Hébergement_3"/>
                         </a>
@@ -111,7 +121,7 @@
                     </figure>
 
                     <figure class="Hébergement_4">
-                        <a href="Img/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg">
+                        <a href="#Hebergements">
                             <img src="Img/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg"
                                  alt="Hébergement_4"/>
                         </a>
@@ -128,7 +138,7 @@
 
 
                     <figure class="Hébergement_5">
-                        <a href="Img/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg">
+                        <a href="#Hebergements">
                             <img src="Img/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg"
                                  alt="Hébergement_5"/>
                         </a>
@@ -144,7 +154,7 @@
                     </figure>
 
                     <figure class="Hébergement_6">
-                        <a href="Img/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg">
+                        <a href="#Hebergements">
                             <img src="Img/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg"
                                  alt="Hébergement_6"/>
                         </a>
@@ -159,7 +169,7 @@
                         </figcaption>
                     </figure>
 
-                    <a href="PageMarseille.html" target="_blank">
+                    <a href="#Hebergements" target="_blank">
                         <p><strong>Afficher plus</strong></p>
                     </a>
             </div>
@@ -172,7 +182,7 @@
                     <span class="fas fa-chart-line"></span>
                 
                     <figure class="Popular_1">
-                        <a href="Img/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg">
+                        <a href="#Popularity">
                             <img src="Img/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg"
                                  alt="Popular_1"/>
                         </a>
@@ -188,7 +198,7 @@
                     </figure>
 
                     <figure class="Popular_2">
-                        <a href="Img/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg">
+                        <a href="#Popularity">
                             <img src="Img/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg"
                                  alt="Popular_2"/>
                         </a>
@@ -204,7 +214,7 @@
                     </figure>
 
                     <figure class="Popular_3">
-                        <a href="Img/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg">
+                        <a href="#Popularity">
                             <img src="Img/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg"
                                  alt="Popular_3"/>
                         </a>
@@ -226,7 +236,7 @@
                 <h2>Activités à Marseille</h2>
 
                     <figure class="Activity_1">
-                        <a href="Img/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg">
+                        <a href="#Activities">
                             <img src="Img/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg"
                                  alt="Activity_1"/>
                         </a>
@@ -235,7 +245,7 @@
                     </figure>
 
                     <figure class="Activity_2">
-                        <a href="Img/activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg">
+                        <a href="#Activities">
                             <img src="Img/activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg"
                                  alt="Activity_2"/>
                         </a>
@@ -244,7 +254,7 @@
                     </figure>
 
                     <figure class="Activity_3">
-                        <a href="Img/activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg">
+                        <a href="#Activities">
                             <img src="Img/activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg"
                                  alt="Activity_3"/>
                         </a>
@@ -253,7 +263,7 @@
                     </figure>
 
                     <figure class="Activity_4">
-                        <a href="Img/activites/4_small/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg">
+                        <a href="#Activities">
                             <img src="Img/activites/4_small/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg"
                                  alt="Activity_4"/>
                         </a>
@@ -262,7 +272,7 @@
                     </figure>
 
                     <figure class="Activity_5">
-                        <a href="Img/activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg">
+                        <a href="#Activities">
                             <img src="Img/activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg"
                                  alt="Activity_5"/>
                         </a>
@@ -271,7 +281,7 @@
                     </figure>
 
                     <figure class="Activity_6">
-                        <a href="Img/activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg">
+                        <a href="#Activities">
                             <img src="Img/activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg"
                                  alt="Activity_6"/>
                         </a>
@@ -286,120 +296,24 @@
             <div id="Site_Informations">
                 <h3 class="Info">À Propos</h3>
                     <ul>   
-                        <li><a href="Fonctionnement_du_Site.html" target="_blank">Fonctionnement du site</a></li>
-                        <li><a href="Conditions_générales_de_vente.html" target="_blank">
-                        Conditions générales de vente</a></li>
-                        <li><a href="Données_et_confidentialité.html" target="_blank">
-                        Données et confidentialité</a></li>
+                        <li><a href="#Site_Informations">Fonctionnement du site</a></li>
+                        <li><a href="#Site_Informations">Conditions générales de vente</a></li>
+                        <li><a href="#Site_Informations">Données et confidentialité</a></li>
                     </ul>
 
                 <h3 class="Hosting">Nos hébergements</h3>
                     <ul>
-                        <li><a href="Charte_qualité.html" target="_blank">Charte qualité</a></li>
-                        <li><a href="Soumettre_votre_hôtel.html" target="_blank">Soumettre votre hôtel</a></li>
+                        <li><a href="#Site_Informations">Charte qualité</a></li>
+                        <li><a href="#Site_Informations">Soumettre votre hôtel</a></li>
                     </ul>
 
                     
                 <h3 class="Assistance">Assistance</h3>
                     <ul>  
-                        <li><a href="Centre_d'aide.html" target="_blank">Centre d'aide</a></li>
-                        <li><a href="Nous_Contacter.html" target="_blank">Nous contacter</a></li>
+                        <li><a href="#Site_Informations">Centre d'aide</a></li>
+                        <li><a href="#Site_Informations">Nous contacter</a></li>
                     </ul>    
             </div>
         </footer>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-            
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-       
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     </body>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 </html>

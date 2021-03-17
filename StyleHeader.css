@@ -1,0 +1,46 @@
+@font-face
+{
+    font-family:'Raleway';
+    src: url('Police/Raleway/Raleway-VariableFont_wght.ttf');
+    src: url('Police/Raleway/Raleway-Italic-VariableFont_wght.ttf');
+}
+
+*
+{
+    font-family:'Raleway', sans-serif;
+}
+
+#Head
+{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px; 
+}
+
+#Navigation
+{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    padding-top: 10px;
+    padding-right: 30px;
+}
+
+ul
+{  
+    padding: 20px;
+    margin: 10px;
+    list-style-type: none;
+}
+
+li
+{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+li:hover
+{
+    text-decoration: overline;
+}
+
