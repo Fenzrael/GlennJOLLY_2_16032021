@@ -1,3 +1,4 @@
+/*Police Personnalisée téléchargée*/
 @font-face
 {
     font-family:'Raleway';
@@ -5,42 +6,107 @@
     src: url('Police/Raleway/Raleway-Italic-VariableFont_wght.ttf');
 }
 
+/*Police Raleway sur toute la page*/
 *
 {
     font-family:'Raleway', sans-serif;
 }
 
+/*Marge Initiale du Corps de Page*/
+body 
+{
+    margin: 0px; 
+}
+
+/*Marge intérieure gauche de l'en-tête*/
+header
+{
+    margin-left: 50px;
+}
+
+/*Mise sous fond gras des éléments strong*/
+strong
+{
+    font-weight: bold;
+}
+
+/*Surlignement liens Hypertexte retirer*/
+a
+{
+    text-decoration: none;
+}
+
+/*Header (Logo+Menu)*/
 #Head
 {
     display: flex;
-    justify-content: space-between;
-    padding: 10px; 
+    justify-content: space-between; 
+    flex-wrap: wrap;
+    padding: 0px;
 }
 
+/*Organisation du Menu de Navigation*/
 #Navigation
 {
-    display:flex;
-    flex-direction:row;
-    justify-content:space-between;
-    padding-top: 10px;
-    padding-right: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 486.25px;
+    padding-top: 1em; 
+    padding-right: 1em;
 }
 
+/*Bordure top au survol (Hébergements+Activités)*/
+#Navigation a:hover
+{
+    border-top: 3px solid #0065FC;
+    padding-top: 1.9em;
+}
+
+/*Liste à puces (Retrait des points)*/
 ul
 {  
-    padding: 20px;
-    margin: 10px;
     list-style-type: none;
 }
 
+/*marges intérieures de la liste à puces*/
 li
 {
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-left: 1em;
+    margin-right: 1em;
 }
 
-li:hover
+#Search
 {
-    text-decoration: overline;
+    display: flex;
+    flex-direction: row;
+    justify-content: stretch;
+    align-items:center;
+    width: 421.25px;
+    height:53.72px;
+    
 }
 
+.fa-map-marker-alt
+{
+    padding: 15px;
+    border: 2px solid #F2F2F2; 
+    border-radius: 20px 0 0 20px;
+    background-color: #F2F2F2;
+}
+
+.TextArea
+{
+    padding: 15.5px;
+    border: 2px solid #F2F2F2;
+    border-collapse: collapse;
+}
+
+.Research
+{
+    padding: 13px;
+    border: 2px solid #0065FC;
+    border-radius: 0 20px 20px 0;
+    background-color: #0065FC;
+    color: #F2F2F2;
+}
