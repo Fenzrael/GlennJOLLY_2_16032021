@@ -26,9 +26,9 @@
         <!--Menu de Navigation-->
                 <nav class="Menu">
                     <ul id="Navigation">
-                        <li class="Location"><a href="#Hebergements">Hébergements</a></li>
-                        <li class="Activite"><a href="#Activities">Activités</a></li>
-                        <li class="Require"><a href="#">S'inscrire</a></li>
+                        <li><a class="Location" href="#Hebergements">Hébergements</a></li>
+                        <li><a class="Activite" href="#Activities">Activités</a></li>
+                        <li><a class="Require" href="#">S'inscrire</a></li>
                     </ul>
                 </nav>
             </div>
@@ -41,29 +41,30 @@
         <!--Formulaire de recherche-->   
                 <form id="Search">
                     <span class="fas fa-map-marker-alt"></span>
-                        <input class="TextArea" type="search" name="Rechercher" id="Rechercher" placeholder="Marseille,France"/>
-                            <label class="Research" for="Rechercher"><strong>Rechercher</strong></label> 
-                </form>
+                        <input class="TextArea" type="search" name="Rechercher" id="Rechercher" 
+                               placeholder="Marseille,France"/></input>
+                        <input class="Research" type="button" value="Rechercher"></input>
+                </form><br/>
 
         <!--Filtres-->   
-                <p id="Filters">Filtres 
+                <p id="Filters"><strong>Filtres</strong> 
                     <span class="fas fa-money-bill-wave"></span>
-                        <a>Économique</a>
+                        <a class="Texte"><strong>Économique</strong></a>
 
                     <span class="fas fa-child"></span>
-                        <a>Familial</a>
+                        <a class="Texte"><strong>Familial</strong></a>
 
                     <span class="fas fa-heart"></span>
-                        <a>Romantique</a>
+                        <a class="Texte"><strong>Romantique</strong></a>   
 
                     <span class="fas fa-dog"></span>
-                        <a>Animaux Autorisés</a>
+                        <a class="Texte"><strong>Animaux Autorisés</strong></a>
                 </p>
 
         <!--Infos supplémentaires-->
                 <div id="More_Info">
                     <span class="fas fa-info-circle"></span>
-                    Plus de 500 logements sont disponibles dans cette ville
+                    <p class="Dispo">Plus de 500 logements sont disponibles dans cette ville</p>
                 </div>
         </header>
 

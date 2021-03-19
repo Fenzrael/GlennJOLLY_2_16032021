@@ -1,3 +1,5 @@
+/*Style CSS du header*/
+
 /*Police Personnalisée téléchargée*/
 @font-face
 {
@@ -16,12 +18,16 @@
 body 
 {
     margin: 0px; 
+    font-size: 1em;
 }
 
 /*Marge intérieure gauche de l'en-tête*/
 header
 {
+    
     margin-left: 50px;
+    margin-right: 41.25px;
+    
 }
 
 /*Mise sous fond gras des éléments strong*/
@@ -43,6 +49,7 @@ a
     justify-content: space-between; 
     flex-wrap: wrap;
     padding: 0px;
+    margin: 0px;
 }
 
 /*Organisation du Menu de Navigation*/
@@ -52,8 +59,8 @@ a
     flex-direction: row;
     justify-content: center;
     width: 486.25px;
-    padding-top: 1em; 
-    padding-right: 1em;
+    padding: 1em; 
+    
 }
 
 /*Bordure top au survol (Hébergements+Activités)*/
@@ -61,6 +68,18 @@ a
 {
     border-top: 3px solid #0065FC;
     padding-top: 1.9em;
+}
+
+/*Couleur de Hébergements et S'inscrire*/
+.Location .Require
+{
+    color: #0065FC;
+}
+
+/*Couleur d'Activités*/
+.Activite
+{
+    color: black;
 }
 
 /*Liste à puces (Retrait des points)*/
@@ -76,6 +95,7 @@ li
     margin-right: 1em;
 }
 
+/*Configuration Barre de Recherche*/
 #Search
 {
     display: flex;
@@ -83,18 +103,19 @@ li
     justify-content: stretch;
     align-items:center;
     width: 421.25px;
-    height:53.72px;
-    
+    height:53.72px; 
 }
 
+/*Design icone map*/
 .fa-map-marker-alt
 {
-    padding: 15px;
+    padding: 17px;
     border: 2px solid #F2F2F2; 
     border-radius: 20px 0 0 20px;
     background-color: #F2F2F2;
 }
 
+/*Design Zone de Recherche*/
 .TextArea
 {
     padding: 15.5px;
@@ -102,11 +123,111 @@ li
     border-collapse: collapse;
 }
 
+/*Design du bouton rechercher*/
 .Research
 {
-    padding: 13px;
+    padding: 15.3px;
     border: 2px solid #0065FC;
     border-radius: 0 20px 20px 0;
     background-color: #0065FC;
     color: #F2F2F2;
+}
+
+/*Configuration des Filtres*/
+#Filters
+{
+    display: flex;
+    justify-content: stretch;
+    flex-direction: row;
+    align-items: center;
+    width: 80%;
+    height: 51.22px;
+    
+}
+
+/*Formatage des Textes du Filtre*/
+.Texte
+{
+    
+    padding: 14px 14px 14px 50px;
+    font-size: 1em;
+    border: 2px solid #F2F2F2;
+    border-radius: 30px;
+}
+
+/*Formatage de l'icône Billet*/
+.fa-money-bill-wave
+{
+    position: relative;
+    left: 43px;
+
+    padding: 14px 13px 14px 13px;
+    border: 2px solid #F2F2F2;
+    border-radius: 30px;
+    background-color: #DEEBFF;
+    color: #0065FC;
+}
+
+/*Formatage de l'icône Enfant*/
+.fa-child
+{   
+    position: relative;
+    left: 43px;
+
+    padding: 14px 17px 14px 17px ;
+    border: 2px solid #F2F2F2;
+    border-radius: 50px;
+    background-color: #DEEBFF;
+    color: #0065FC;
+}
+
+/*Formatage de l'icône Coeur*/
+.fa-heart
+{
+    position: relative;
+    left: 43px;
+
+    padding: 14px;
+    border: 2px solid #F2F2F2;
+    border-radius: 30px;
+    background-color: #DEEBFF;
+    color: #0065FC;
+}
+
+/*Formatage de l'icône Chien*/
+.fa-dog
+{
+    position: relative;
+    left: 43px;
+
+    padding: 14px;
+    border: 2px solid #F2F2F2;
+    border-radius: 30px;
+    background-color: #DEEBFF;
+    color: #0065FC;
+}
+
+/*Formatage du Texte d'Information*/
+#More_Info
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: stretch;
+    align-items:center;
+    width: 45%;
+}
+
+/*Formatage du logo Info circle*/
+.fa-info-circle
+{
+    border: 1px solid #F2F2F2;
+    border-radius: 1em;
+    background-color: #0065FC;
+    color: white;
+}
+
+/*Formatage Texte( class Dispo)*/
+.Dispo
+{
+    padding-left: 5px;  
 }
