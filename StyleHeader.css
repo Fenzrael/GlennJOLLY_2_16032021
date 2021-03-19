@@ -145,6 +145,10 @@ li
     
 }
 
+#Filters a:hover
+{
+    background-color:  #F2F2F2;
+}
 /*Formatage des Textes du Filtre*/
 .Texte
 {
