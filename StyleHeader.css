@@ -17,17 +17,16 @@
 /*Marge Initiale du Corps de Page*/
 body 
 {
-    margin: 0px; 
+    margin: 0px;
+    padding:0px; 
     font-size: 1em;
 }
 
 /*Marge intérieure gauche de l'en-tête*/
 header
 {
-    
     margin-left: 50px;
     margin-right: 41.25px;
-    
 }
 
 /*Mise sous fond gras des éléments strong*/
@@ -60,7 +59,6 @@ a
     justify-content: center;
     width: 486.25px;
     padding: 1em; 
-    
 }
 
 /*Bordure top au survol (Hébergements+Activités)*/
@@ -142,13 +140,13 @@ li
     align-items: center;
     width: 80%;
     height: 51.22px;
-    
 }
 
 #Filters a:hover
 {
     background-color:  #F2F2F2;
 }
+
 /*Formatage des Textes du Filtre*/
 .Texte
 {
