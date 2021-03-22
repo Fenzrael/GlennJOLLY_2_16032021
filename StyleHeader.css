@@ -20,6 +20,7 @@ body
     margin: 0px;
     padding:0px; 
     font-size: 1em;
+    max-width:1800px;
 }
 
 /*Marge intérieure gauche de l'en-tête*/
@@ -42,7 +43,7 @@ a
 }
 
 /*Header (Logo+Menu)*/
-#Head
+#head
 {
     display: flex;
     justify-content: space-between; 
@@ -52,7 +53,7 @@ a
 }
 
 /*Organisation du Menu de Navigation*/
-#Navigation
+#navigation
 {
     display: flex;
     flex-direction: row;
@@ -62,20 +63,20 @@ a
 }
 
 /*Bordure top au survol (Hébergements+Activités)*/
-#Navigation a:hover
+#navigation a:hover
 {
     border-top: 3px solid #0065FC;
     padding-top: 1.9em;
 }
 
 /*Couleur de Hébergements et S'inscrire*/
-.Location .Require
+.location .require
 {
     color: #0065FC;
 }
 
 /*Couleur d'Activités*/
-.Activite
+.activite
 {
     color: black;
 }
@@ -94,7 +95,7 @@ li
 }
 
 /*Configuration Barre de Recherche*/
-#Search
+#search
 {
     display: flex;
     flex-direction: row;
@@ -114,7 +115,7 @@ li
 }
 
 /*Design Zone de Recherche*/
-.TextArea
+.textArea
 {
     padding: 15.5px;
     border: 2px solid #F2F2F2;
@@ -122,7 +123,7 @@ li
 }
 
 /*Design du bouton rechercher*/
-.Research
+.research
 {
     padding: 15.3px;
     border: 2px solid #0065FC;
@@ -132,7 +133,7 @@ li
 }
 
 /*Configuration des Filtres*/
-#Filters
+#filters
 {
     display: flex;
     justify-content: stretch;
@@ -142,13 +143,13 @@ li
     height: 51.22px;
 }
 
-#Filters a:hover
+#filters a:hover
 {
     background-color:  #F2F2F2;
 }
 
 /*Formatage des Textes du Filtre*/
-.Texte
+.texte
 {
     
     padding: 14px 14px 14px 50px;
@@ -210,7 +211,7 @@ li
 }
 
 /*Formatage du Texte d'Information*/
-#More_Info
+#more_Info
 {
     display: flex;
     flex-direction: row;
@@ -229,7 +230,7 @@ li
 }
 
 /*Formatage Texte( class Dispo)*/
-.Dispo
+.dispo
 {
     padding-left: 5px;  
 }
