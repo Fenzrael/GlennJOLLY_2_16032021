@@ -1,3 +1,4 @@
+/*Mise en forme des Sections*/
 #section
 {
     display: flex;
@@ -8,6 +9,7 @@
     margin-right: 41.25px; 
 }
 
+/*Mise en forme Hébergements à Marseille*/
 #hebergements
 {
     display: flex;
@@ -15,7 +17,7 @@
     flex-direction: row;
     justify-content: flex-start;
     align-content:space-between;
-    width: 55em;
+    width: 52em;
     height: 40em;
     margin: 0px;
     border: 1px solid black;
@@ -23,19 +25,21 @@
     background-color: #F2F2F2;
 }
 
+/*Mise en forme Des plus Populaires*/
 #popularity
 {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
-    align-content:flex-start;
-    width: 20em;
+    justify-content: space-between;
+    align-content:space-around;
+    width: 26em;
     height: 40em;
     border: 1px solid black;
     border-radius: 20px;
     background-color: #F2F2F2;
 }
 
+/*Mise en forme des Activités*/
 #activities
 {
     display: flex;
@@ -47,26 +51,44 @@
     height: 628.42px;
     border:1px solid black;
 }
+
+/*Mise en Forme du Titre Hébergements à Marseille*/
+.title1
+{
+    padding-top:1em;
+    padding-left: 1em;
+    margin-left: 3%;
+    margin-right: 10%;
+    width: 90%;
+    height: 2%;
+    font-size: 1.2em;
+}
+
+/*Largeur Hauteur des tuiles dans Hébergements à marseille*/
 .reservation
 {
     width: 23%;
-    height: 11em;
+    height: 12em;
 }
 
+/*Couleur des Legendes dans les tuiles*/
 .legende
 {
     color: black;
 }
+
+/*Largeur, Hauteur, Marge, Arrangement interieur des Tuiles*/
 .image, .display
 {
     display: flex;
-    justify-content:space-between;
+    justify-content: space-between;
     width: 12.8em;
     height: 7em;
     margin-right: 50px;  
     object-fit: cover;
 }
 
+/*Bordures Tuiles, Overflow pour cacher les bords des images débordant des Tuiles et couleur de fond*/
 figure
 {
     border:3px solid white;
@@ -75,17 +97,7 @@ figure
     background-color: white;
 }
 
-.title1
-{
-    padding-top:1em;
-    padding-left: 1em;
-    margin-left: 3%;
-    margin-right: 10%;
-    width: 90%;
-    height: 8%;
-    font-size: 1.2em;
-}
-
+/*Mise en forme du lien Afficher plus*/
 .display
 {
     margin-left: 2.5em;
@@ -95,26 +107,14 @@ figure
     color: black;
 }
 
-.popular
+/*Mise en forme des Tuiles des Plus Populaires*/
+#popular1, #popular2, #popular3
 {
-    width: 10em;
-    height: 10em;
+    display: flex;
+    align-items: space-around;
+    width: 20em;
+    height: 11.5em;
     color: black;
-}
-.picture
-{
-    display: flex;
-    justify-content: space-around;
-    width: 15em;
-    height: 6em;
-    object-fit: cover;
-}
-
-#popular1
-{
-    display: flex;
-    flex-direction: row;
-    height: 1em;
 }
 
 .activity1
@@ -137,7 +137,17 @@ figure
 
 .picture1
 {
-    width: 5em;
-    height: 5em;
+    width: 10em;
+    height: 10em;
     object-fit: cover;
+}
+
+.fas.fa-star
+{
+    color: #0065FC;
+}
+
+.fas.fa-star.grey
+{
+    color: #F2F2F2;
 }
