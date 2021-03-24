@@ -42,11 +42,13 @@
 .title4
 {
     margin-top: 10%;
-    margin-left: 12%;
+    margin-left: 3em;
     width: 40%;
     height: 10%;
+    font-size: 1.2em;
 }
 
+/* couleur noir lien du footer*/
 #info a, #hosting a, #assistance a
 {
     color: black;
