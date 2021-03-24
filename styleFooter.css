@@ -1,0 +1,53 @@
+/* Disposition de l'ensemble*/
+#siteInformations
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-content: space-between;
+    background-color: #F2F2F2;
+    width: 100%;
+    height: 15em;
+    margin-top: 5em;
+}
+
+/*Disposition des Titres et leurs contenus*/
+#info, #hosting, #assistance
+{
+    display: flex;
+    flex-direction: column;
+    width: 33.3%;
+    height: 100%;
+}
+
+#infolist
+{
+    display: flex;
+    flex-direction: column;  
+    justify-content: space-around;
+    align-content: space-around;
+    width: 60%;
+    height: 50%;
+}
+
+#hostinglist, #assistancelist
+{
+    display: flex;
+    flex-direction: column;  
+    justify-content: space-around;
+    width: 50%;
+    height: 40%;
+}
+
+.title4
+{
+    margin-top: 10%;
+    margin-left: 12%;
+    width: 40%;
+    height: 10%;
+}
+
+#info a, #hosting a, #assistance a
+{
+    color: black;
+}
