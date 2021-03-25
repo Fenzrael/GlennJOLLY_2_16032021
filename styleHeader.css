@@ -55,7 +55,7 @@ a
 #navigation
 {
     position: absolute; 
-    right: 170px;
+    right: 10px;
     display: flex;
     justify-content: space-around;
     align-items: center;
