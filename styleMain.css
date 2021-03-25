@@ -17,7 +17,7 @@
     flex-direction: row;
     justify-content: space-around;
     align-content:space-between;
-    width: 52em;
+    width: 50em;
     height: 40em;
     border: 1px solid #F2F2F2;
     border-radius: 20px;
@@ -64,12 +64,9 @@
 {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
-    
+    justify-content: flex-start;
     width: 22em;
     height: 14em;
-    
-    
 }
 
 /*Implementation des Images dans les Tuiles Section1 et Aside*/
@@ -81,10 +78,10 @@
 }
 
 /*Couleur des Legendes dans les tuiles*/
-.legende
+.legende, .night
 {
-    margin-left: 15px;
-    font-size: 15px;
+    width: 12em;
+    margin:0.5em 0 0.2em 0.7em;
     color: black;
 }
 
@@ -92,14 +89,28 @@
 .image
 {
     width: 14.6em;
-    height: 6.8em;
+    height: 6.9em;
     object-fit: cover;
+}
+
+.night
+{ 
+    font-size: 16px;
+    margin: 0 0 0.2em 0.6em;
+    
+}
+
+.star
+{
+    margin: 0 0 0.7em 0.4em;
+    width: 7em;
+    
 }
 
 /*Bordures Tuiles, Overflow pour cacher les bords des images débordant des Tuiles et couleur de fond*/
 #hebergements figure, #popularity figure
 {
-    border:3px solid white;
+    border:4px solid white;
     border-radius: 20px;
     overflow: hidden;
     background-color: white;
@@ -191,47 +202,52 @@
 .picture1
 {
     width: 400px;
-    height: 500px;
+    height: 437px;
+    margin: auto;
     object-fit: cover;
 }
 
 .picture2, .picture3, .picture4, .picture5
 {
-    width:19em;
+    width: 19em;
     margin: auto;
     object-fit: cover;
-}
+} 
 
 .picture2
 {
     height: 13em;
+    max-height: 13em;
 }
 
 .picture3
 {
     height: 8.3em;
+    max-height: 8.3em;
 }
 
 .picture4
 {
     height: 9em;
+    max-height: 9em;
 }
 
 .picture5
 { 
     height: 12.3em;
+    max-height: 12.3em;
 }
 
 /*Legendes*/
 .legende1
 {
-    margin-left:11%;
+    margin-left: 10px;
     color: black;
 }
 
 .legende2
 {
-    margin-left: 4%;
+    margin-left: 1em;
     color: black;
 }
 
@@ -251,6 +267,7 @@
     flex-direction:column;
     justify-content:space-between;
     width: 26%;
+    height: 490px;
     margin: 0px;
 }
 
@@ -258,7 +275,8 @@
 {
     display: flex;
     flex-direction: column;
-    max-width: 21.5%;
+    justify-content:space-between;
+    width: 21%;
 }
 
 #activity2, #activity3, #activity5, #activity6

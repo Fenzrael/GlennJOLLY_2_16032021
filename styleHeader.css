@@ -54,6 +54,8 @@ a
 /*Organisation du Menu de Navigation*/
 #navigation
 {
+    position: absolute; 
+    right: 170px;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -62,12 +64,18 @@ a
     padding: 1em 2.1em 0 2.1em;
 }
 
+.lien1
+{
+    display: flex;
+    justify-content: space-between;
+    width:17em;
+}
+
 /*Bordure top au survol (Hébergements+Activités)*/
-#navigation a:hover
+.location:hover, .activite:hover
 {
     border-top: 3px solid #0065FC;
-    padding: 3.1em 2em 0 2em;
-    
+    padding: 2.1em 2em 2em 2em;  
 }
 
 /*Couleur de Hébergements et S'inscrire*/
