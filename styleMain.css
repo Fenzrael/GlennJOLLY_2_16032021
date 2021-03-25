@@ -19,7 +19,7 @@
     align-content:space-between;
     width: 52em;
     height: 40em;
-    border: 1px solid black;
+    border: 1px solid #F2F2F2;
     border-radius: 20px;
     background-color: #F2F2F2;
 }
@@ -33,7 +33,7 @@
     align-content:space-around;
     width: 26em;
     height: 40em;
-    border: 1px solid black;
+    border: 1px solid #F2F2F2;
     border-radius: 20px;
     background-color: #F2F2F2;
 }
@@ -59,12 +59,17 @@
     margin-bottom: 3em;    
 }
 
-/*Marge gauche des Textes à l'intérieur des Tuiles Hébergements à Marseille*/
-.reservation p
+#reservation1, #reservation2, #reservation3,
+#reservation4, #reservation5, #reservation6
 {
-    margin-left: 5%;
-    margin-bottom: 20%;
-    font-size: 0.8em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+    width: 22em;
+    height: 14em;
+    
+    
 }
 
 /*Implementation des Images dans les Tuiles Section1 et Aside*/
@@ -78,14 +83,16 @@
 /*Couleur des Legendes dans les tuiles*/
 .legende
 {
+    margin-left: 15px;
+    font-size: 15px;
     color: black;
 }
 
 /*Largeur, Hauteur, Marge, Arrangement interieur des Tuiles*/
 .image
 {
-    width: 14.5em;
-    height: 7em;
+    width: 14.6em;
+    height: 6.8em;
     object-fit: cover;
 }
 
@@ -168,23 +175,23 @@
     justify-content: space-between;
     align-content: space-between;
     width: 100%;
-    height: 39em;    
+    height: 600px;    
+    margin:0px;
 }
 
 /*Mise en forme du titre Activités*/
 .title3
 {
     width: 100%;
-    margin: auto;
-    height: 1em;
-    padding-top: 3%;          
+    height: 1em;        
     font-size: 1.2em;
+    padding-top: 20px;
 }
 /*Implementation des Images dans les Tuiles Activités + Largeur hauteur * Marges*/
 .picture1
 {
-    width: 25em;
-    height: 27.7em;
+    width: 400px;
+    height: 500px;
     object-fit: cover;
 }
 
@@ -243,18 +250,15 @@
     display: flex;   
     flex-direction:column;
     justify-content:space-between;
-    align-content: space-between;
-    align-items:center;
     width: 26%;
-    margin:auto;
-    height: 80%;
+    margin: 0px;
 }
 
 #frame, #frame1
 {
     display: flex;
     flex-direction: column;
-    width: 21.5%;
+    max-width: 21.5%;
 }
 
 #activity2, #activity3, #activity5, #activity6
@@ -262,28 +266,61 @@
     display: flex;
     flex-direction: column;
     justify-content:space-between;
-    width:95%;
-    margin:auto;
+    align-content: space-between;
+    max-width:95%;
+    margin:auto; 
 }
 
 #activity2
 {
-    height: 57%;
+    max-height: 57%;
     margin-bottom: 2em;
 }
 
 #activity3
 {
-    height: 40%;
+    max-height: 40%;
 }
 
 #activity5
 {
-    height: 40%;
+    max-height: 40%;
     margin-bottom: 2em;
 }
 
 #activity6
 {
-    height: 51%;
+    max-height: 50%;
 } 
+
+/*Effet de zoom au survol de la souris*/
+.reservation:hover, .popular:hover
+{
+    -webkit-transition: all 1s ease; /*Compatibilite Safari et Chrome*/
+    -moz-transition: all 1s ease; /*Compatibilite Mozilla Firefox*/
+    -o-transition: all 1s ease; /*Compatibilite Opera*/
+    -ms-transition: all 1s ease; /*Compatibilite Internet Explorer 9*/
+    transition: all 1s ease; /*Transition toutes les 1 secondes*/
+
+    -webkit-transform:scale(1.15); /*Safari et Chrome*/
+    -moz-transform:scale(1.15); /*Mozilla Firefox*/
+    -o-transform:scale(1.15); /*Opera*/
+    -ms-transform:scale(1.15); /*Compatibilite Internet Explorer 9*/
+    transform:scale(1.15); /*Echelle de Transformation*/
+}
+
+#activity1:hover, #activity2:hover, #activity3:hover, 
+#activity4:hover, #activity5:hover, #activity6:hover
+{
+    -webkit-transition: all 1s ease; /*Compatibilite Safari et Chrome*/
+    -moz-transition: all 1s ease; /*Compatibilite Mozilla Firefox*/
+    -o-transition: all 1s ease; /*Compatibilite Opera*/
+    -ms-transition: all 1s ease; /*Compatibilite Internet Explorer 9*/
+    transition: all 1s ease; /*Transition toutes les 1 secondes*/
+
+    -webkit-transform:scale(1.10); /*Safari et Chrome*/
+    -moz-transform:scale(1.10); /*Mozilla Firefox*/
+    -o-transform:scale(1.10); /*Opera*/
+    -ms-transform:scale(1.10); /*Compatibilite Internet Explorer 9*/
+    transform:scale(1.10); /*Echelle de Transformation*/
+}

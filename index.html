@@ -8,10 +8,11 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
         <!--Liens aux Fichiers CSS-->
-        <link rel="stylesheet" href="styleHeader.css"/>
-        <link rel="stylesheet" href="styleMain.css"/>
-        <link rel="stylesheet" href="styleFooter.css"/>
-
+        <link rel="stylesheet" href="styleHeader.css"/><link rel="stylesheet" href="styleQueries.css"/>
+        <link rel="stylesheet" href="styleMain.css"/><link rel="stylesheet" href="styleQueries.css"/>
+        <link rel="stylesheet" href="styleFooter.css"/><link rel="stylesheet" href="styleQueries.css"/>
+        
+              
         <!--Script Kit Font-Awesome-->
         <script src="https://kit.fontawesome.com/71f14f71be.js" crossorigin="anonymous"></script>
 
@@ -25,7 +26,7 @@
             <div id="head">
                 <h1 class="enterprise"><img src="Img/logo/Reservia.svg" alt="Reservia"></h1>
 
-        <!--Menu de Navigation-->
+            <!--Menu de Navigation-->
                 <nav>
                     <ul id="navigation">
                         <li><a class="location" href="#hebergements">Hébergements</a></li>
@@ -35,12 +36,12 @@
                 </nav>
             </div>
 
-        <!--Paragraphe de Présentation-->
+            <!--Paragraphe de Présentation-->
                 <p><strong>Trouvez votre hébergement pour des vacances de rêve</strong><br/>
                 En plein centre ville ou en pleine nature
                 </p>
 
-        <!--Formulaire de recherche-->   
+            <!--Formulaire de recherche-->   
                 <form id="search">
                     <span class="fas fa-map-marker-alt"></span>
                         <input class="textArea" type="search" name="Rechercher" id="rechercher" 
@@ -48,7 +49,7 @@
                         <input class="research" type="button" value="Rechercher"/>
                 </form><br/>
 
-        <!--Filtres-->   
+            <!--Filtres-->   
                 <p id="filters"><strong>Filtres</strong> 
                     <span class="fas fa-money-bill-wave"></span>
                         <a class="texte"><strong>Économique</strong></a>
@@ -63,7 +64,7 @@
                         <a class="texte"><strong>Animaux Autorisés</strong></a>
                 </p>
 
-        <!--Infos supplémentaires-->
+            <!--Infos supplémentaires-->
                 <div id="more_Info">
                     <span class="fas fa-info-circle"></span>
                     <p class="dispo">Plus de 500 logements sont disponibles dans cette ville</p>
@@ -78,101 +79,110 @@
                     <h2 class="title1">Hébergements à Marseille</h2>
 
                         <figure class="reservation">
-                            <a href="#hebergements">
-                                    <img class="image" src="Img/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg"
-                                         alt="hebergement1"/>
+                            <a id="reservation1" href="#hebergements">
+                                <img class="image" src="Img/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg"
+                                     alt="hebergement1"/>
                                 
-                        
                                 <p class="legende"><strong>Auberge la Cannebière</strong><br/>
                                 Nuit à partir de <strong>25€</strong><br/>
-                                    <span class="fas fa-star"></span>
-                                    <span class="fas fa-star"></span>
-                                    <span class="fas fa-star"></span>
-                                    <span class="fas fa-star"></span>
-                                    <span class="fas fa-star grey"></span>
+                                    <div class="star">
+                                        <span class="fas fa-star"></span>
+                                        <span class="fas fa-star"></span>
+                                        <span class="fas fa-star"></span>
+                                        <span class="fas fa-star"></span>
+                                        <span class="fas fa-star grey"></span>
+                                    </div>
                                 </p>
                             </a>
                         </figure>
            
                         <figure class="reservation">
-                            <a href="#hebergements">
+                            <a id="reservation2" href="#hebergements">
                                     <img class="image" src="Img/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg"
                                          alt="hebergement2"/>
-                                
-
+                            
                                 <p class="legende"><strong>Hôtel du port</strong><br/>
                                 Nuit à partir de 52€<br/>
-                                    <span class="fas fa-star"></span>
-                                    <span class="fas fa-star"></span>
-                                    <span class="fas fa-star"></span>
-                                    <span class="fas fa-star"></span>
-                                    <span class="fas fa-star"></span>
+                                    <div class="star">
+                                        <span class="fas fa-star"></span>
+                                        <span class="fas fa-star"></span>
+                                        <span class="fas fa-star"></span>
+                                        <span class="fas fa-star"></span>
+                                        <span class="fas fa-star"></span>
+                                    </div>
                                 </p>
                             </a>
                         </figure>
 
                         <figure class="reservation">
-                            <a href="#hebergements">
+                            <a id="reservation3" href="#hebergements">
                                     <img class="image" src="Img/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg"
                                          alt="hebergement3"/>
                                 
-
                                 <p class="legende"><strong>Hôtel les mouettes</strong><br/>
                                 Nuit à partir de 76€<br/>
-                                    <span class="fas fa-star"></span>
-                                    <span class="fas fa-star"></span>
-                                    <span class="fas fa-star"></span>
-                                    <span class="fas fa-star"></span>
-                                    <span class="fas fa-star grey"></span>
+                                    <div class="star">
+                                        <span class="fas fa-star"></span>
+                                        <span class="fas fa-star"></span>
+                                        <span class="fas fa-star"></span>
+                                        <span class="fas fa-star"></span>
+                                        <span class="fas fa-star grey"></span>
+                                    </div>  
                                 </p>
                             </a>
                         </figure>
 
                         <figure class="reservation">
-                            <a href="#hebergements">
+                            <a id="reservation4" href="#hebergements">
                                     <img class="image" src="Img/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg"
                                          alt="hebergement4"/>
                                 
                                 <p class="legende"><strong>Hôtel de la mer</strong><br/>
                                 Nuit à partir de 46€<br/>
-                                    <span class="fas fa-star"></span>
-                                    <span class="fas fa-star"></span>
-                                    <span class="fas fa-star"></span>
-                                    <span class="fas fa-star grey"></span>
-                                    <span class="fas fa-star grey"></span>
+                                    <div class="star">
+                                        <span class="fas fa-star"></span>
+                                        <span class="fas fa-star"></span>
+                                        <span class="fas fa-star"></span>
+                                        <span class="fas fa-star grey"></span>
+                                        <span class="fas fa-star grey"></span>
+                                    </div>
                                 </p>
                             </a>                         
                         </figure>
 
 
                         <figure class="reservation">
-                            <a href="#hebergements">
+                            <a id="reservation5" href="#hebergements">
                                 <img class=" image" src="Img/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg"
                                      alt="hebergement5"/>
                                 
                                 <p class="legende"><strong>Auberge Le Panier</strong><br/>
                                 Nuit à partir de <strong>23€</strong><br/>
-                                    <span class="fas fa-star"></span>
-                                    <span class="fas fa-star"></span>
-                                    <span class="fas fa-star"></span>
-                                    <span class="fas fa-star"></span>
-                                    <span class="fas fa-star grey"></span>
+                                    <div class="star">
+                                        <span class="fas fa-star"></span>
+                                        <span class="fas fa-star"></span>
+                                        <span class="fas fa-star"></span>
+                                        <span class="fas fa-star"></span>
+                                        <span class="fas fa-star grey"></span>
+                                    </div>
                                 </p>
                             </a>
                         </figure>
 
                         <figure class="reservation">
-                            <a href="#hebergements">
+                            <a id="reservation6" href="#hebergements">
                                 <img class="image" src="Img/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg"
                                      alt="hebergement6"/>
-                                     
+   
                                 <p class="legende"><strong>Hôtel chez Amina</strong><br/>
                                 Nuit à partir de 96€<br/>
-                                    <span class="fas fa-star"></span>
-                                    <span class="fas fa-star"></span>
-                                    <span class="fas fa-star"></span>
-                                    <span class="fas fa-star"></span>
-                                    <span class="fas fa-star"></span>
+                                    <div class="star">
+                                        <span class="fas fa-star"></span>
+                                        <span class="fas fa-star"></span>
+                                        <span class="fas fa-star"></span>
+                                        <span class="fas fa-star"></span>
+                                        <span class="fas fa-star"></span>
+                                    </div>
                                 </p>
                             </a>
                         </figure>
@@ -185,7 +195,7 @@
 
                 <h2 class="title2">Les plus populaires<span class="fas fa-chart-line"></span></h2>
                     
-                    <figure>
+                    <figure class="popular">
                             <a id="popular1" href="#popularity">
                                 <img class="picture" src="Img/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg"
                                      alt="picture"/>
@@ -203,7 +213,7 @@
                             </a>
                     </figure>
 
-                    <figure>
+                    <figure class="popular">
                             <a id="popular2" href="#popularity">
                                 <img class="picture" src="Img/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg"
                                      alt="picture"/>
@@ -221,7 +231,7 @@
                             </a>
                     </figure>
 
-                    <figure>
+                    <figure class="popular">
                             <a id="popular3" href="#popularity">
                                 <img class="picture" src="Img/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg"
                                      alt="picture"/>

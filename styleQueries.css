@@ -1,0 +1,144 @@
+@media all and (min-width:1800px) and (max-width: 1920px){
+
+    nav{
+
+        margin-right: 0px;
+        width: 27%;
+    }
+
+    #navigation a:hover{
+
+    padding-top: 2.75em;
+}
+    #search{
+
+        width: auto;
+    }
+
+    .fa-map-marker-alt{
+
+        height: 32%;
+    }
+    
+    #filters{
+
+        display: flex;
+        justify-content: space-around;
+        width: 67%;
+    }
+
+    .fa-money-bill-wave, .fa-child, .fa-heart, .fa-dog{
+
+        position: relative;
+        left: 5.5%;
+    }
+
+   
+    #hebergements{
+
+        width: 65%;
+    }
+
+    .legende{
+
+        font-size: 90%;
+    }
+
+    .image{
+
+        width: 100%;
+        height: 60%;
+        object-fit: cover;
+    }
+
+    
+
+    #popularity{
+
+        width: 30%;
+    }
+
+    .popular{
+
+        height: 28%;
+    }
+
+    .picture{
+
+        width:43%;
+        height:100%;
+        object-fit: cover;
+        margin-left: -2%;
+    }
+
+    #activities{
+
+        width: auto;
+        height: auto;
+    }
+
+    .picture1{
+        width: 100%;
+        height: 142%;
+    }
+
+    .legende1{
+
+        margin-left: 3%;
+    }
+    
+    .title4{
+
+        margin-top: 10%;
+        margin-left: 10%;
+    }
+    
+}
+
+@media all and (min-width:1200px) and (max-width:1280px){
+
+    
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

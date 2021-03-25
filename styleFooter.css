@@ -27,7 +27,7 @@
     justify-content: space-around;
     align-content: space-around;
     width: 60%;
-    height: 50%;
+    height: 40%;
 }
 
 #hostinglist, #assistancelist
@@ -36,13 +36,11 @@
     flex-direction: column;  
     justify-content: space-around;
     width: 50%;
-    height: 40%;
+    height: 25%;
 }
 
 .title4
 {
-    margin-top: 10%;
-    margin-left: 3em;
     width: 40%;
     height: 10%;
     font-size: 1.2em;

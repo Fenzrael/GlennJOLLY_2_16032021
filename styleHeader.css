@@ -18,9 +18,8 @@
 body 
 {
     margin: 0px;
-    padding:0px; 
+    padding: 0px; 
     font-size: 1em;
-    max-width:1800px;
 }
 
 /*Marge intérieure gauche de l'en-tête*/
@@ -56,17 +55,19 @@ a
 #navigation
 {
     display: flex;
-    flex-direction: row;
-    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
     width: 486.25px;
-    padding: 1em; 
+    height: 60px;
+    padding: 1em 2.1em 0 2.1em;
 }
 
 /*Bordure top au survol (Hébergements+Activités)*/
 #navigation a:hover
 {
     border-top: 3px solid #0065FC;
-    padding-top: 1.9em;
+    padding: 3.1em 2em 0 2em;
+    
 }
 
 /*Couleur de Hébergements et S'inscrire*/
@@ -233,3 +234,4 @@ li
 {
     padding-left: 5px;  
 }
+ 
