@@ -56,6 +56,7 @@ a
 {
     position: absolute; 
     right: 10px;
+
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -147,6 +148,7 @@ li
     display: flex;
     justify-content: stretch;
     flex-direction: row;
+    flex-wrap:wrap;
     align-items: center;
     width: 80%;
     height: 51.22px;
