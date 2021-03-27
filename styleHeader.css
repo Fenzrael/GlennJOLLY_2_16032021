@@ -80,7 +80,7 @@ a
 }
 
 /*Couleur de Hébergements et S'inscrire*/
-.location .require
+.location, .require
 {
     color: #0065FC;
 }
@@ -231,7 +231,7 @@ li
     align-items:center;
     margin: 10px 0;
     width: 70%;
-    border: 1px solid black;
+    
 }
 
 /*Formatage du logo Info circle*/
