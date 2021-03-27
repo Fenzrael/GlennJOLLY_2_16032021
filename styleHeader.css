@@ -146,12 +146,14 @@ li
 #filters
 {
     display: flex;
-    justify-content: stretch;
     flex-direction: row;
-    flex-wrap:wrap;
+    justify-content: flex-start;
+    align-content: space-around;
+    flex-wrap: wrap;
     align-items: center;
-    width: 80%;
+    width: 900px;
     height: 51.22px;
+    margin: 10px 0;
 }
 
 #filters a:hover
@@ -225,9 +227,11 @@ li
 {
     display: flex;
     flex-direction: row;
-    justify-content: stretch;
+    justify-content: flex-start;
     align-items:center;
-    width: 45%;
+    margin: 10px 0;
+    width: 70%;
+    border: 1px solid black;
 }
 
 /*Formatage du logo Info circle*/
