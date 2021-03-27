@@ -19,7 +19,9 @@ body
 {
     margin: 0px;
     padding: 0px; 
+    justify-content: center; 
     font-size: 1em;
+    max-width: 1440px;
 }
 
 /*Marge intérieure gauche de l'en-tête*/
