@@ -16,7 +16,6 @@ body
     margin: auto;
     padding: 0; 
     font-size: 1em;
-    box-sizing: border-box;
 }
 
 /*Marge intérieure gauche de l'en-tête*/
@@ -77,7 +76,11 @@ a
 nav li a:hover
 {
     border-top: 3px solid #0065FC;
-    padding: 5.5vh;
+}
+
+li a
+{
+    padding: 5.5vh 4vh 0 4vh;
 }
 
 /*Couleur de Hébergements et S'inscrire*/
@@ -104,11 +107,10 @@ ul
 li
 {
     margin-left: 1em;
-    margin-right: 1em;
 }
 
 /*Configuration Barre de Recherche*/
-#search
+.search
 {
     display: flex;
     flex-direction: row;
