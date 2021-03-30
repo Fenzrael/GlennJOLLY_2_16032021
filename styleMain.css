@@ -1,19 +1,14 @@
 /*Mise en forme des Sections*/
-#section
+#principal
 {
     display: flex;
     flex-wrap: wrap;
-    flex: 1 1 100%;
     justify-content:space-between;
     align-content:space-between;
     margin-left: 50px;
     margin-right: 41.25px; 
 }
 
-.section1
-{
-    display: flex;
-}
 /*Mise en forme Hébergements à Marseille*/
 .hebergements
 {
@@ -28,7 +23,7 @@
 }
 
 /*Mise en forme Des plus Populaires*/
-.popularity
+.celebrity
 {
     display: flex;
     flex-direction: column;
@@ -37,6 +32,7 @@
     width: 26em;
     border-radius: 20px;
     background-color: #F2F2F2;
+    overflow: auto;
 }
 
 /*Mise en Forme du Titre Hébergements à Marseille*/
@@ -103,7 +99,7 @@
 }
 
 /*Bordures Tuiles, Overflow pour cacher les bords des images débordant des Tuiles et couleur de fond*/
-.hebergements figure, .popularity figure
+.hebergements figure, .celebrity figure
 {
     border:4px solid white;
     border-radius: 20px;
@@ -128,7 +124,7 @@
     display: flex;
     justify-content:space-around;
     padding-left: 1em;
-    width: 90%;
+    width: 100%;
     height: 5%;
     font-size: 1.2em;
 }
@@ -141,7 +137,6 @@
     flex-wrap: wrap;
     width: 22em;
     height: 9em;
-    margin: auto;
     color: black;
 }
 
@@ -173,7 +168,7 @@
 }
 
 /*Mise en forme des Activités*/
-#activities
+.activities
 {
     display: flex;
     flex-wrap: wrap;
@@ -241,7 +236,7 @@
 }
 
 /*Mise en page des Tuiles*/
-#activities figure
+.activities figure
 {
     border: 5px solid #F2F2F2;
     border-radius: 20px;
