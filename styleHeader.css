@@ -16,6 +16,7 @@ body
     margin: 0 auto;
     font-size: 1em;
     background-color: white;
+    white-space: wrap;
 }
 
 /*Marge intérieure gauche de l'en-tête*/
@@ -156,7 +157,7 @@ li
     align-content: space-around;
     flex-wrap: wrap;
     align-items: center;
-    width: 1200px;
+    width: auto;
     height: 51.22px;
     margin: 10px 0;
 }

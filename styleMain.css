@@ -10,7 +10,7 @@
 }
 
 /*Mise en forme Hébergements à Marseille*/
-.hebergements
+#hebergements
 {
     display: flex;
     flex-wrap: wrap;
@@ -25,7 +25,7 @@
 {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-around;
     align-content:space-around;
     width: 26em;
     border-radius: 20px;
@@ -59,7 +59,15 @@
     justify-content: flex-start;
     width: 22em;
 }
-
+.mention
+{
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    border: 1px solid black;
+    margin:0;
+}
 /*Implementation des Images dans les Tuiles Section1 et Aside*/
 .picture
 {
@@ -97,7 +105,7 @@
 }
 
 /*Bordures Tuiles, Overflow pour cacher les bords des images débordant des Tuiles et couleur de fond*/
-.hebergements figure, .celebrity figure
+#hebergements figure, .celebrity figure
 {
     border:4px solid white;
     border-radius: 20px;
@@ -125,6 +133,7 @@
     width: 100%;
     height: 5%;
     font-size: 1.2em;
+    border: 1px solid black;;
 }
 
 /*Mise en forme des Tuiles des Plus Populaires*/
@@ -166,7 +175,7 @@
 }
 
 /*Mise en forme des Activités*/
-.activities
+#activities
 {
     display: flex;
     flex-wrap: wrap;
@@ -234,7 +243,7 @@
 }
 
 /*Mise en page des Tuiles*/
-.activities figure
+#activities figure
 {
     margin: 0;
     border: 5px solid #F2F2F2;
