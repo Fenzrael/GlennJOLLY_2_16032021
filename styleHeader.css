@@ -13,8 +13,9 @@ body
 {
     font-family:'Raleway', sans-serif;
     max-width: 1440px;
-    margin: auto;
+    margin: 0 auto;
     font-size: 1em;
+    background-color: white;
 }
 
 /*Marge intérieure gauche de l'en-tête*/

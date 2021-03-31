@@ -14,9 +14,7 @@
 {
     display: flex;
     flex-wrap: wrap;
-    flex-direction: row;
     justify-content: space-around;
-    align-content:space-between;
     width: 50em;
     border-radius: 20px;
     background-color: #F2F2F2;
@@ -32,7 +30,7 @@
     width: 26em;
     border-radius: 20px;
     background-color: #F2F2F2;
-    overflow: auto;
+    overflow: hidden;
 }
 
 /*Mise en Forme du Titre Hébergements à Marseille*/
@@ -48,7 +46,7 @@
 /*Largeur Hauteur des tuiles dans Hébergements à marseille*/
 .reservation
 {
-    flex: 1 1 25%;
+    flex: 1 0 25%;
     margin: 1em;
     margin-bottom: 3em;    
 }
@@ -173,9 +171,9 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    align-content: space-around;
+    align-items: flex-start;
     width: auto;
-    height: 100vh;    
+    height: 100vh;  
 }
 
 /*Mise en forme du titre Activités*/
@@ -238,6 +236,7 @@
 /*Mise en page des Tuiles*/
 .activities figure
 {
+    margin: 0;
     border: 5px solid #F2F2F2;
     border-radius: 20px;
     box-shadow: 6px 6px 6px #F2F2F2;
@@ -259,40 +258,31 @@
     display: flex;
     flex-direction: column;
     justify-content:space-between;
+    align-items: flex-start;
     width: 21%;
 }
 
 #activity2, #activity3, #activity5, #activity6
 {
     display: flex;
-    flex-direction: column;
     justify-content:space-between;
-    align-content: space-between;
     max-width:95%;
     margin:auto; 
 }
 
 #activity2
 {
-    max-height: 57%;
     margin-bottom: 2em;
 }
 
-#activity3
-{
-    max-height: 40%;
-}
+
 
 #activity5
 {
-    max-height: 40%;
     margin-bottom: 2em;
 }
 
-#activity6
-{
-    max-height: 50%;
-} 
+
 
 /*Effet de zoom au survol de la souris*/
 .reservation:hover, .popular:hover
