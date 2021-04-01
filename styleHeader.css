@@ -47,7 +47,7 @@ a
 
 .enterprise
 {
-    flex: 1;
+    flex: 1 0 40%;
 }
 
 /*Organisation du Menu de Navigation*/
@@ -56,20 +56,24 @@ a
     display: flex;
     justify-content: space-around;
     align-items: center;
-    width: 30vw;
+    flex: 0 0 28em;
+    padding: 1em;
 }
 
 .lien1
 {
     display: flex;
     justify-content: space-between;
-    min-width:17em;
-    margin-right: 5vw;
+    margin-right: 3em;
 }
-
+.sign
+{
+    display: flex;
+    justify-content: flex-end;
+}
 .require
 {
-    margin-right: 1vw;
+    margin-right: 10px;
 }
 
 /*Bordure top au survol (Hébergements+Activités)*/
@@ -116,14 +120,14 @@ li
     flex-direction: row;
     justify-content: stretch;
     align-items:center;
-    width: 421.25px;
-    height:53.72px; 
+    width: auto;
+    min-width: 421.25px;
 }
 
 /*Design icone map*/
 .fa-map-marker-alt
 {
-    padding: 17px;
+    padding: 15.5px;
     border: 2px solid #F2F2F2; 
     border-radius: 20px 0 0 20px;
     background-color: #F2F2F2;

@@ -30,7 +30,6 @@
     width: 26em;
     border-radius: 20px;
     background-color: #F2F2F2;
-    overflow: hidden;
 }
 
 /*Mise en Forme du Titre Hébergements à Marseille*/
@@ -51,22 +50,14 @@
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    flex: 1 0 25%;
+    flex: 0 0 25%;
 }
 
-.mention
-{
-    display:flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-start;
-    border: 1px solid black;
-    margin:0;
-}
 /*Implementation des Images dans les Tuiles Section1 et Aside*/
 .picture
 {
-    width: 9em;
+    min-width: 9em;
+    max-width: 9em;
     height: 10em;
     object-fit: cover;
 }
@@ -82,8 +73,10 @@
 /*Largeur, Hauteur, Marge, Arrangement interieur des Tuiles*/
 .image
 {
-    width: 14.6em;
+    width: 12.8em;
     height: 6.5em;
+    max-width: 100%;
+    max-height: auto;
     object-fit: cover;
 }
 
@@ -113,8 +106,8 @@
 {
     margin-left: 1.5em;
     margin-bottom: 2em;
-    margin-right: 85%;
-    width: 15%;
+    margin-right: 82%;
+    min-width: 15%;
     height: 2em;
     color: black; 
 }
@@ -181,7 +174,6 @@
     justify-content: space-between;
     align-items: flex-start;
     width: auto;
-    height: 100vh;  
 }
 
 /*Mise en forme du titre Activités*/
@@ -195,15 +187,19 @@
 /*Implementation des Images dans les Tuiles Activités + Largeur hauteur * Marges*/
 .picture1
 {
-    width: 30vw;
-    height:68vh;
+    width: 351px;
+    max-width: 100%;
+    max-height: auto;
+    height:27.3em;
     margin: auto;
     object-fit: cover;
 }
 
 .picture2, .picture3, .picture4, .picture5
 {
-    width: 19em;
+    max-width: 100%;
+    max-height: auto;
+    width: 270px;
     margin: auto;
     object-fit: cover;
 } 
@@ -225,18 +221,22 @@
 
 .picture5
 { 
-    max-height: 12.3em;
+    max-height: 15em;
 }
 
 /*Legendes*/
 .legende1
 {
+    max-width: 100%;
+    max-height: auto;
     margin-left: 10px;
     color: black;
 }
 
 .legende2
 {
+    max-width: 100%;
+    max-height: auto;
     margin-left: 1em;
     color: black;
 }
@@ -258,6 +258,7 @@
     flex-direction: column;
     justify-content: space-between;
     width: 26%;
+    min-width: 350px;
     margin: 0px;
 }
 
@@ -283,14 +284,10 @@
     margin-bottom: 2em;
 }
 
-
-
 #activity5
 {
     margin-bottom: 2em;
 }
-
-
 
 /*Effet de zoom au survol de la souris*/
 .reservation:hover, .popular:hover
