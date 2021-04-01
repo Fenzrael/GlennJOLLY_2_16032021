@@ -46,19 +46,14 @@
 /*Largeur Hauteur des tuiles dans Hébergements à marseille*/
 .reservation
 {
-    flex: 1 0 25%;
     margin: 1em;
-    margin-bottom: 3em;    
-}
-
-#reservation1, #reservation2, #reservation3,
-#reservation4, #reservation5, #reservation6
-{
+    margin-bottom: 3em; 
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    width: 22em;
+    flex: 1 0 25%;
 }
+
 .mention
 {
     display:flex;
@@ -88,7 +83,7 @@
 .image
 {
     width: 14.6em;
-    height: 6.9em;
+    height: 6.5em;
     object-fit: cover;
 }
 
@@ -100,7 +95,7 @@
 
 .star
 {
-    margin: 0 0 0.7em 0.4em;
+    margin: 0 0 0.7em 0.5em;
     width: 7em;
 }
 
@@ -109,7 +104,7 @@
 {
     border:4px solid white;
     border-radius: 20px;
-    overflow: hidden;
+    overflow:hidden;
     background-color: white;
 }
 
@@ -133,7 +128,6 @@
     width: 100%;
     height: 5%;
     font-size: 1.2em;
-    border: 1px solid black;;
 }
 
 /*Mise en forme des Tuiles des Plus Populaires*/
@@ -147,19 +141,24 @@
     color: black;
 }
 
+.rate
+{
+    padding-top: 1em;
+}
+
 /*Disposition des etoiles dans les Tuiles des Plus Populaires*/
 #marge, #marge1, #marge2
 {
     display: flex;
     flex-direction: row;
     align-content: space-around;
-    margin-top: 10%;
+    margin-top: 14%;
 }
 
 /*Ajustement #marge1 et #marge2 par rapport a #marge*/
 #marge1, #marge2
 {
-    margin-right:19%;
+    margin-right:20%;
 }
 
 /*Couleur Bleue des Etoiles */
