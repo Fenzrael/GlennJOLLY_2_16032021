@@ -57,8 +57,8 @@
 .picture
 {
     min-width: 9em;
-    max-width: 9em;
-    height: 10em;
+    max-width: 40%;
+    max-height: 10em;
     object-fit: cover;
 }
 
@@ -188,8 +188,6 @@
 .picture1
 {
     width: 351px;
-    max-width: 100%;
-    max-height: auto;
     height:27.3em;
     margin: auto;
     object-fit: cover;
@@ -206,21 +204,25 @@
 
 .picture2
 {
+    max-width: 100%;
     max-height: 13em;
 }
 
 .picture3
 {
+    max-width: 100%;
     max-height: 8.3em;
 }
 
 .picture4
 {
+    max-width: 100%;
     max-height: 9em;
 }
 
 .picture5
 { 
+    max-width: 100%;
     max-height: 15em;
 }
 
@@ -256,9 +258,8 @@
 {
     display: flex;   
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: stretch;
     width: 26%;
-    min-width: 350px;
     margin: 0px;
 }
 
@@ -286,7 +287,7 @@
 
 #activity5
 {
-    margin-bottom: 2em;
+    margin-bottom: 2.1em;
 }
 
 /*Effet de zoom au survol de la souris*/

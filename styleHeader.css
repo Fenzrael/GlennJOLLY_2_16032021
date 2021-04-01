@@ -157,7 +157,6 @@ li
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
-    align-content: space-around;
     flex-wrap: wrap;
     align-items: center;
     width: auto;
@@ -232,7 +231,7 @@ li
 }
 
 /*Formatage du Texte d'Information*/
-#more_Info
+.moreInfo
 {
     display: flex;
     flex-direction: row;

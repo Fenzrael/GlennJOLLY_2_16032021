@@ -6,4 +6,113 @@
     }   
 }
     
-@media only screen and (max-width: )
+@media only screen and (max-width: 1228px){
+
+    #hebergements{
+
+        width: 40em;
+    }   
+
+    #activity5{
+
+        margin-bottom: 4.5em;
+    }
+}
+
+@media only screen and (max-width: 1148px){
+
+    #hebergements{
+
+        width: auto;
+    }   
+    
+    .image{
+
+        width: 17em;
+    }
+
+    .celebrity{
+
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: auto;
+        margin-top: 2em;
+    }
+
+    .title2{
+
+        display: flex;
+        justify-content:space-between;
+        padding-left: 1em;
+        padding-right: 1em;
+    }
+
+    #activity2{
+
+        margin-bottom: 3.2em;
+    }
+
+    #activity5{
+
+        margin-bottom: 7em;
+    }
+}
+@media only screen and (max-width: 986px){
+
+    #selection{
+
+        margin: 20px 0;
+    }
+    
+    .animal{
+
+        margin: 10px 0;
+    }
+
+    .moreInfo{
+
+        margin-top: 50px;
+        
+    }
+
+    #activities{
+        
+        margin: 0;
+        padding: 0;
+        width: 100%;
+    }
+
+    #frame, #frame1{
+
+        flex-direction: row;
+        width: 60%;
+    }
+
+    #activities figure{
+
+        width: 300px;
+        height: 250px;
+    }
+
+    #activity2, #activity3, #activity5, #activity6{
+
+        margin-right: 40px;
+        min-width: 300px;
+        margin: 0 10px;
+    }
+
+    .picture2, .picture3, .picture4, .picture5{
+
+        max-width: none;
+        max-height: none;
+        margin: none;
+    }
+
+    .picture1, .picture2, .picture3, 
+    .picture4, .picture5, .picture6{
+
+        width: 350px;
+        height: 200px;
+    }
+}
+
