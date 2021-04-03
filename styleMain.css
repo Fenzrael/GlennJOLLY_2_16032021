@@ -56,9 +56,8 @@
 /*Implementation des Images dans les Tuiles Section1 et Aside*/
 .picture
 {
-    min-width: 9em;
-    max-width: 40%;
-    max-height: 10em;
+    width: 40%;
+    height: 100%;
     object-fit: cover;
 }
 
@@ -76,7 +75,7 @@
     width: 12.8em;
     height: 6.5em;
     max-width: 100%;
-    max-height: auto;
+    max-height: 100%;
     object-fit: cover;
 }
 
@@ -187,16 +186,17 @@
 /*Implementation des Images dans les Tuiles Activités + Largeur hauteur * Marges*/
 .picture1
 {
-    width: 351px;
-    height:27.3em;
-    margin: auto;
+    width: 22em;
+    height: 28em;
+    max-width: 100%;
+    max-height: 100%;
     object-fit: cover;
 }
 
 .picture2, .picture3, .picture4, .picture5
 {
     max-width: 100%;
-    max-height: auto;
+    max-height: 100%;
     width: 270px;
     margin: auto;
     object-fit: cover;
@@ -204,41 +204,36 @@
 
 .picture2
 {
-    max-width: 100%;
-    max-height: 13em;
+    
+    height: 13em;
 }
 
 .picture3
 {
-    max-width: 100%;
-    max-height: 8.3em;
+   
+    height: 8.3em;
 }
 
 .picture4
 {
-    max-width: 100%;
-    max-height: 9em;
+   
+    height: 9em;
 }
 
 .picture5
 { 
-    max-width: 100%;
-    max-height: 15em;
+    height: 13em;
 }
 
 /*Legendes*/
 .legende1
 {
-    max-width: 100%;
-    max-height: auto;
     margin-left: 10px;
     color: black;
 }
 
 .legende2
 {
-    max-width: 100%;
-    max-height: auto;
     margin-left: 1em;
     color: black;
 }
@@ -258,9 +253,9 @@
 {
     display: flex;   
     flex-direction: column;
-    justify-content: stretch;
+    justify-content: flex-start;
     width: 26%;
-    margin: 0px;
+    margin: auto;
 }
 
 #frame, #frame1
@@ -268,26 +263,40 @@
     display: flex;
     flex-direction: column;
     justify-content:space-between;
-    align-items: flex-start;
-    width: 21%;
+    width: 22%;
+    height: 33em;
+    margin: auto;
 }
 
 #activity2, #activity3, #activity5, #activity6
 {
     display: flex;
-    justify-content:space-between;
-    max-width:95%;
-    margin:auto; 
+    justify-content: space-between;
+    margin: auto; 
 }
 
 #activity2
 {
-    margin-bottom: 2em;
+    width: 20vw;
+    min-height: 55%;
+}
+
+#activity3
+{
+    width: 20vw;
+    min-height: 38%;
 }
 
 #activity5
 {
-    margin-bottom: 2.1em;
+    width: 20vw;
+    min-height: 40%;
+}
+
+#activity6
+{
+    width: 20vw;
+    min-height: 51%;
 }
 
 /*Effet de zoom au survol de la souris*/

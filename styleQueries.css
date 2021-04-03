@@ -1,9 +1,19 @@
+@media only screen and (min-width: 1500px) and (max-width: 2560px){
+
+    .title4{
+
+        position: relative;
+        left: 3.5em;
+    }
+}
+
 @media only screen and (max-width: 1308px){
 
     #hebergements{
 
         width: 45em;
-    }   
+    }  
+    
 }
     
 @media only screen and (max-width: 1228px){
@@ -13,10 +23,6 @@
         width: 40em;
     }   
 
-    #activity5{
-
-        margin-bottom: 4.5em;
-    }
 }
 
 @media only screen and (max-width: 1148px){
@@ -47,15 +53,6 @@
         padding-right: 1em;
     }
 
-    #activity2{
-
-        margin-bottom: 3.2em;
-    }
-
-    #activity5{
-
-        margin-bottom: 7em;
-    }
 }
 @media only screen and (max-width: 986px){
 
@@ -72,47 +69,99 @@
     .moreInfo{
 
         margin-top: 50px;
-        
+    }
+
+    #hebergements figure{
+
+        min-width: 258px;
     }
 
     #activities{
-        
-        margin: 0;
-        padding: 0;
+
+        flex: none;
+        display: inline-block;
         width: 100%;
     }
 
+    #activity1, #activity4{
+
+        flex: none;
+        display: block;
+        width: 80%;
+        min-width: 80%;
+        margin: 0 10%;
+    }
+    
     #frame, #frame1{
 
-        flex-direction: row;
-        width: 60%;
-    }
-
-    #activities figure{
-
-        width: 300px;
-        height: 250px;
+        flex: none;
+        position: inherit;
+        display: inline-block;
+        width: 100%;
+        height: auto;
     }
 
     #activity2, #activity3, #activity5, #activity6{
 
-        margin-right: 40px;
-        min-width: 300px;
-        margin: 0 10px;
+        width: 80%;
+        margin: 5% 10%;
     }
 
-    .picture2, .picture3, .picture4, .picture5{
+    .test{
 
-        max-width: none;
-        max-height: none;
-        margin: none;
+        width: 100%;
+        margin: 5% 10%;
     }
 
-    .picture1, .picture2, .picture3, 
-    .picture4, .picture5, .picture6{
+    .picture1, .picture2, .picture3, .picture4, .picture5{
 
-        width: 350px;
-        height: 200px;
+        width:100%;
+        height: auto;
+
+    }
+
+    #activities figure{
+
+        max-width: 100%;
+        max-height: auto;
+        
+    }
+
+    #activity1{
+
+        max-width: 100%;
+        max-height: 100%;
     }
 }
+
+@media only screen and (max-width: 891px){
+
+    .enterprise{
+
+        flex: 0;
+    }
+
+    #info, #hosting, #assistance{
+
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    #siteInformations{
+
+        flex-direction: column;
+        justify-content: flex-start;
+        align-content: space-between;
+        height: auto;
+        margin-top: 5em;
+        line-height: 2em;
+    }
+
+    #info{
+
+        margin-top: 2em;
+    } 
+}
+
 
