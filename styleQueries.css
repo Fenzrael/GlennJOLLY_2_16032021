@@ -1,9 +1,8 @@
 @media only screen and (min-width: 1500px) and (max-width: 2560px){
 
-    .title4{
+    .title3{
 
-        position: relative;
-        left: 3.5em;
+        margin-left: 1em;
     }
 }
 
@@ -54,7 +53,7 @@
     }
 
 }
-@media only screen and (max-width: 986px){
+@media only screen and (max-width: 1003px){
 
     #selection{
 
@@ -78,15 +77,11 @@
 
     #activities{
 
-        flex: none;
-        display: inline-block;
         width: 100%;
     }
 
     #activity1, #activity4{
 
-        flex: none;
-        display: block;
         width: 80%;
         min-width: 80%;
         margin: 0 10%;
@@ -117,14 +112,12 @@
 
         width:100%;
         height: auto;
-
     }
 
     #activities figure{
 
         max-width: 100%;
         max-height: auto;
-        
     }
 
     #activity1{
@@ -162,6 +155,239 @@
 
         margin-top: 2em;
     } 
+
+    #assistance{
+
+        margin-bottom: 2em;
+    }
 }
 
+@media only screen and (max-width: 687px){
 
+    #principal{
+
+        margin-left: 0;
+        margin-right: 0; 
+    }
+
+    .search{
+
+        width: auto;
+        border-radius: 20px 20px 20px 20px;
+    }
+
+    .research{
+
+        display: none;
+    }
+
+    .loupe{
+
+        display: inherit;
+    }
+
+    #hebergements{
+
+        order: 2;
+        margin-top: 2em;
+        background-color: #ffffff;
+    }
+
+    .reservation{
+
+        flex: inherit;
+        width: 300px;
+        box-shadow: 6px 6px 4px #F2F2F2;
+    }
+
+    .image{
+
+        width: 100%;
+        height: 150px;
+    }
+
+    .display{
+
+        display: inline-block;
+        width: 100%;
+        margin-right: inherit;
+        font-size: 1.2em;
+    }
+
+    .celebrity{
+
+        order: 1;
+        width: 100%;
+        margin: 0;
+        border-radius: inherit;
+    }
+    
+    .celebrity figure{
+
+        flex: none;
+        display: inline-block;
+        width : auto;
+        
+    }
+    #activities{
+
+        order: 3;
+        width: 100%;
+    }
+
+    #activities img{
+
+        height: 150px;
+    }
+
+    .title1, .title2{
+
+        font-size: 1.5em;
+    }
+
+    .title3{
+
+        width:auto;
+        margin-left: 1em;
+        margin-bottom: 3em;
+        font-size: 1.5em;
+    }
+
+    .title4{
+
+        position: relative;
+        left: 2.2em;
+    }
+}
+
+@media only screen and (max-width: 553px){
+
+    header{
+
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+   
+    .require{
+
+        position: absolute;
+        top:35px;
+        right: 10px;
+        font-weight: 700;
+        font-size: 1.2em;
+    }
+
+    #navigation{
+
+        flex: none;
+        display: inline-block;
+        width: auto;
+    }
+
+    .lien1{
+
+        display: inline-block;
+        width: auto;
+        margin-bottom: 120px;
+        
+    }
+
+    .location{
+
+        position: absolute;
+        top: 70px;
+        left: 10px;
+        font-size: 1.2em;
+    }
+   
+    .activite{
+
+        position: absolute;
+        top: 70px;
+        right: 10px;
+        font-size: 1.2em;
+    }
+   
+    nav li a:hover{
+
+        border-top: inherit;
+        border-bottom: 3px solid #0065FC;
+    }
+
+    li a{
+        
+        padding: ;
+    }
+
+    hr{
+
+        display: inherit;
+        align: Largeur;
+        width: 100%;
+    }
+    .search{
+
+        min-width: inherit;
+    }
+
+    #selection{
+
+        display:inline-block;
+    }
+
+    .moreInfo{
+
+        width: auto;
+        margin-top: 30px;
+    }
+
+    .family{
+
+        
+        margin: 10px 0;
+    }
+
+    .heart{
+
+        margin: 10px 0;
+    }
+
+    #hebergements{
+
+        display: inline-block;
+        width: auto;
+    }
+
+    .reservation{
+
+        width: 90%;
+    }
+    
+    .display{
+
+        width:auto;
+    }
+
+    .celebrity{
+
+        width: 100%;
+    }
+
+    .title2{
+
+        width: auto;
+        border: 1px solid black;
+    }
+
+    #activities{
+       
+        display: inline-block;
+        width: auto;
+    }
+
+    #activities figure{
+
+        display: inline-block;
+    }
+}
+   

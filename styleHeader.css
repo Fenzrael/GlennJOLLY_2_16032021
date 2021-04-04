@@ -66,11 +66,7 @@ a
     justify-content: space-between;
     margin-right: 3em;
 }
-.sign
-{
-    display: flex;
-    justify-content: flex-end;
-}
+
 .require
 {
     margin-right: 10px;
@@ -99,6 +95,11 @@ li a
     color: black;
 }
 
+hr
+{
+    display: none;
+}
+
 /*Liste à puces (Retrait des points)*/
 ul
 {  
@@ -124,10 +125,20 @@ li
     min-width: 421.25px;
 }
 
+.loupe
+{
+    display: none;
+    padding: 15.3px;
+    border: 2px solid #0065FC;
+    border-radius: 0 20px 20px 0;
+    background-color: #0065FC;
+    color: #F2F2F2;
+}
+
 /*Design icone map*/
 .fa-map-marker-alt
 {
-    padding: 15.5px;
+    padding: 16.5px;
     border: 2px solid #F2F2F2; 
     border-radius: 20px 0 0 20px;
     background-color: #F2F2F2;
