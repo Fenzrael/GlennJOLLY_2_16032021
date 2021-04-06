@@ -160,7 +160,6 @@
 
         margin-bottom: 2em;
     }
-<<<<<<< HEAD
 }
 
 @media only screen and (max-width: 687px){
@@ -261,101 +260,6 @@
     }
 }
 
-=======
-}
-
-@media only screen and (max-width: 687px){
-
-    #principal{
-
-        margin-left: 0;
-        margin-right: 0; 
-    }
-
-    .search{
-
-        width: auto;
-        border-radius: 20px 20px 20px 20px;
-    }
-
-    .research{
-
-        display: none;
-    }
-
-    .loupe{
-
-        display: inherit;
-    }
-
-    #hebergements{
-
-        order: 2;
-        margin-top: 2em;
-        background-color: #ffffff;
-    }
-
-    .reservation{
-
-        flex: inherit;
-        width: 300px;
-        box-shadow: 6px 6px 4px #F2F2F2;
-    }
-
-    .image{
-
-        width: 100%;
-        height: 150px;
-    }
-
-    .display{
-
-        display: inline-block;
-        width: 100%;
-        margin-right: inherit;
-        font-size: 1.2em;
-    }
-
-    .celebrity{
-
-        order: 1;
-        width: 100%;
-        margin: 0;
-        border-radius: inherit;
-    }
-    
-    #activities{
-
-        order: 3;
-        width: 100%;
-    }
-
-    #activities img{
-
-        height: 150px;
-    }
-
-    .title1, .title2{
-
-        font-size: 1.5em;
-    }
-
-    .title3{
-
-        width:auto;
-        margin-left: 1em;
-        margin-bottom: 3em;
-        font-size: 1.5em;
-    }
-
-    .title4{
-
-        position: relative;
-        left: 2.2em;
-    }
-}
-
->>>>>>> 1289acd1ef3a535a11a99e67b0fdb28e7661a535
 @media only screen and (max-width: 553px){
 
     header{
@@ -390,11 +294,7 @@
     .location{
 
         position: absolute;
-<<<<<<< HEAD
         top: 70px;
-=======
-        top: 80px;
->>>>>>> 1289acd1ef3a535a11a99e67b0fdb28e7661a535
         left: 10px;
         font-size: 1.2em;
     }
@@ -402,16 +302,11 @@
     .activite{
 
         position: absolute;
-<<<<<<< HEAD
         top: 70px;
-=======
-        top: 80px;
->>>>>>> 1289acd1ef3a535a11a99e67b0fdb28e7661a535
         right: 10px;
         font-size: 1.2em;
     }
    
-<<<<<<< HEAD
     nav li a:hover{
 
         border-top: inherit;
@@ -423,8 +318,6 @@
         padding: 1.65em;
     }
 
-=======
->>>>>>> 1289acd1ef3a535a11a99e67b0fdb28e7661a535
     .search{
 
         min-width: inherit;
@@ -451,7 +344,6 @@
 
         margin: 10px 0;
     }
-<<<<<<< HEAD
 
     #hebergements{
 
@@ -518,48 +410,3 @@
     }
 
 }
-=======
-
-    #hebergements{
-
-        display: inline-block;
-        width: auto;
-    }
-
-    .reservation{
-
-        width: 90%;
-    }
-    
-    .display{
-
-        width:auto;
-    }
-
-    .celebrity{
-
-        width: 100%;
-        overflow: scroll;
-    }
-
-    .title2{
-
-        flex: none;
-        width: auto;
-        display: inline-block;
-    }
-
-    #activities{
-       
-        display: inline-block;
-        width: auto;
-    }
-
-    #activities figure{
-
-        display: inline-block;
-        width: auto;
-    }
-}
-   
->>>>>>> 1289acd1ef3a535a11a99e67b0fdb28e7661a535

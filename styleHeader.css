@@ -125,13 +125,8 @@ li
     min-width: 421.25px;
 }
 
-<<<<<<< HEAD
 .loupe{
 
-=======
-.loupe
-{
->>>>>>> 1289acd1ef3a535a11a99e67b0fdb28e7661a535
     display: none;
     padding: 15.3px;
     border: 2px solid #0065FC;
@@ -141,13 +136,8 @@ li
 }
 
 /*Design icone map*/
-<<<<<<< HEAD
 .fa-map-marker-alt{
 
-=======
-.fa-map-marker-alt
-{
->>>>>>> 1289acd1ef3a535a11a99e67b0fdb28e7661a535
     padding: 16.5px;
     border: 2px solid #F2F2F2; 
     border-radius: 20px 0 0 20px;
