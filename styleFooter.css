@@ -1,6 +1,6 @@
 /* Disposition de l'ensemble*/
-#siteInformations
-{
+#siteInformations{
+    
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
@@ -12,16 +12,16 @@
 }
 
 /*Disposition des Titres et leurs contenus*/
-#info, #hosting, #assistance
-{
+#info, #hosting, #assistance{
+
     display: flex;
     flex-direction: column;
     width: 33.3%;
     height: 100%;
 }
 
-#infolist
-{
+#infolist{
+
     display: flex;
     flex-direction: column;  
     justify-content: space-around;
@@ -30,8 +30,8 @@
     height: 40%;
 }
 
-#hostinglist, #assistancelist
-{
+#hostinglist, #assistancelist{
+
     display: flex;
     flex-direction: column;  
     justify-content: space-around;
@@ -39,8 +39,8 @@
     height: 25%;
 }
 
-.title4
-{
+.title4{
+
     width: 70%;
     height: 10%;
     font-size: 1.2em;
@@ -50,7 +50,7 @@
 }
 
 /* couleur noir lien du footer*/
-#info a, #hosting a, #assistance a
-{
+#info a, #hosting a, #assistance a{
+
     color: black;
 }

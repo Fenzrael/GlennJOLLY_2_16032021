@@ -289,7 +289,6 @@
         display: inline-block;
         width: auto;
         margin-bottom: 120px;
-        
     }
 
     .location{
@@ -316,15 +315,9 @@
 
     li a{
         
-        padding: ;
+        padding: 1.65em;
     }
 
-    hr{
-
-        display: inherit;
-        align: Largeur;
-        width: 100%;
-    }
     .search{
 
         min-width: inherit;
@@ -376,7 +369,6 @@
     .title2{
 
         width: auto;
-        border: 1px solid black;
     }
 
     #activities{
@@ -390,4 +382,31 @@
         display: inline-block;
     }
 }
-   
+
+@media only screen and (max-width: 375px){
+
+    hr{
+        display:inherit;
+        width: 100%;
+        margin: 0;
+        color: #F2F2F2;
+    }
+
+    .search{
+
+        margin-left: 2.5em;
+    }
+
+    .loupe{
+
+        position: relative;
+        right: 20px;
+        border-radius: inherit;
+    }
+
+    .title2{
+
+        width: 100%;
+    }
+
+}
