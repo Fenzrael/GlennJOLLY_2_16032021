@@ -1,8 +1,8 @@
 @media only screen and (min-width: 1500px) and (max-width: 2560px){
 
-    .title3{
+    .title4{
 
-        margin-left: 1em;
+        left: 4.4rem;
     }
 }
 
@@ -381,10 +381,65 @@
     #activities figure{
 
         display: inline-block;
+        width: 100%;
     }
 }
 
 @media only screen and (max-width: 375px){
+
+    .activite{
+
+        margin-right: 2rem;
+    }
+
+    #hebergements{
+
+        padding-bottom:0 ;
+    }
+
+    .title1{
+        margin-top: 0;
+        margin-bottom: 0;
+        font-size: 1.3rem;
+    }
+
+    .reservation{
+
+        width: auto;
+        margin-bottom: 0;
+        margin-left:0.5rem;
+        margin-right: 0.5rem;
+    }
+
+    .image{
+
+        height:8rem;
+    }
+
+    .display{
+
+        margin-top: 3rem;
+        font-size: 1rem;
+    }
+
+    #activities{
+
+        padding-top: 0;
+        border: 1px solid black;
+    }
+
+    .title3{
+
+        padding-top: 0;
+        margin-top: 0;
+        margin-bottom: 1.5rem;
+    }
+
+    #activity1, #activity2, #activity3,
+    #activity4, #activity5, #activity6{
+
+        margin: 1rem 0.5rem;
+    }
 
     hr{
         display:inherit;
@@ -410,4 +465,8 @@
         width: 100%;
     }
 
+   #siteInformations{
+
+        margin-top: 1rem;
+   }
 }
